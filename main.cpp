@@ -22,8 +22,8 @@ int rcmd = 0,cmdflag = 0; //command variable
 char cmd;
 char answer;
 float batvol,temp,ax,ay,az,gx,gy,gz,mx,my,mz;
-char typeword[100];  // 文字列を格納する配列
-int index = 0;          // 配列のインデックス
+char typeword[100];  // Operation check log file name 
+int index = 0;       
 /*====================================================*/
 
 /*======== functions for serial communication ========*/
